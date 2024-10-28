@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(img/coca_fondo.png);
+    background-size: cover; /*la imagen cubrirá toda la pantalla*/
+    background-repeat: no-repeat; /*la imagen no se repetirá*/
+    background-position: center center; /*centra la imagen en la pantalla*/
+    background-attachment: fixed;  /*la imagen de fondo permanecerá fija sin importar si alejas o acercas*/
+}
+
+header{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 5px;
+    margin: 10px;
+    width: 98%;
+}
+
+main{
+    padding: 15px;
+}
+
+#logo{
+    width: 380px;
+    height: 60px;
+}
+
+#menu{
+    list-style: none; /*quitamos viñetas*/
+    display: flex; /*paso a vertical*/
+    flex-direction: row; /*ya esta predeterminado*/
+    justify-content: center; /*se alinea de manera horizontal*/
+}
+
+#menu li{
+    margin: 3px; /*al usar esta funcion separamos las viñetas*/
+}
+
+#menu li a{
+    text-decoration: none; /*quita el subrayado*/
+    padding: 10px;
+    color: black;
+    font-size: 18px;
+}
+
+#menu li a:hover{
+    color: dodgerblue; /*al pasar con el cursor por encima cambia al color seleccionado*/
+}
+
+#contenedor{
+    display: flex;
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+    width: 98%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+table{
+    padding: 15px;
+    border-collapse: collapse; /*elimina el espaciado*/
+    margin: 10px;
+}
+
+td,th{
+    padding: 10px;
+    text-align: start;
+}
+
+th{
+    color: black;
+}
+
+h2{
+    color: red;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#formulario{
+    width: 320px;
+    height: 380px;
+    border: 1px solid black;
+    margin: 10px;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+#formulario h2{
+    padding: 0;
+}
+
+.btn{
+    color: white;
+    background-color: rgb(90, 90, 90);
+    padding: 5px;
+    margin: 5px;
+    width: 310px;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+    width: 98%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer div img{
+    width: 200px;
+}
+
+footer p{
+    color: white;
+    margin-top: 7px;
+}
+
+#boom{
+    display: flex;
+    margin: 5px;
+    justify-content: space-around;
+    width: 70%;
+}
+
+footer th{
+    color: white;
+    padding-left: 2px;
+    padding-bottom: 15px;
+}
+
+footer td{
+    color: white;
+    padding: 2px;
+}
+

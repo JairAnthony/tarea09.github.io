@@ -1,0 +1,69 @@
+body{
+    background-image: url(img/coca_fondo.png);
+    background-size: cover; /*la imagen cubrirá toda la pantalla*/
+    background-repeat: no-repeat; /*la imagen no se repetirá*/
+    background-position: center center; /*centra la imagen en la pantalla*/
+    background-attachment: fixed;  /*la imagen de fondo permanecerá fija sin importar si alejas o acercas*/
+}
+
+main{
+    z-index: 100;
+    position: fixed;
+    top: 130px;
+    left: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+header{
+    padding: 5px;
+    margin: 5px;
+    justify-items: center; /*coloque los divs dentro del contenedor en el centro de manera vertical*/
+}
+
+#logo img{
+    width: 90%;
+}
+
+#menu{
+    list-style: none; /*quitamos viñetas*/
+    display: flex; /*paso a vertical*/
+    flex-direction: row; /*ya esta predeterminado*/
+    justify-content: center; /*se alinea de manera horizontal*/
+    /*align-items: center;  se alinea de manera vertical*/
+}
+
+#menu li{
+    margin: 6px; /*al usar esta funcion separamos las viñetas*/
+}
+
+#menu li a{
+    text-decoration: none; /*quita el subrayado*/
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+#menu li a:hover{
+    color: dodgerblue; /*al pasar con el cursor por encima cambia al color seleccionado*/
+}
+
+p{
+    color: white;
+    text-align: center; /*coloca el texto al centro del div*/
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#redes{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#redes img{
+    width: 30px;
+    border-radius: 18px;
+    padding: 9px;
+}
